@@ -1,0 +1,50 @@
+/* ===================================== 
+   Page Styles
+======================================== */
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+.main-content {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===================================== 
+   Grid Layout
+======================================== */
+
+.container {
+    max-width: 862px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.inputBox {
+    margin: 0 auto;
+    max-width: 500px;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: lightgray;
+    color: lightgray;
+    font-family: 'Open Sans';
+    padding-left: 8px;
+}
